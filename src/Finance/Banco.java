@@ -1,8 +1,10 @@
 package Finance;
 
+import java.util.List;
+
 public class Banco {
-    System.out.println("Teste");
     private String nome;
+    private List<Conta> contas;
 
     public String getNome() {
         return nome;

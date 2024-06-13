@@ -1,7 +1,9 @@
 package Finance;
 
 public interface IConta {
-    public void sacar(double valor);
-    public void depositar(double valor);
-    public void transferir(double valor, Conta contaDestino);
+    void sacar(double valor);
+    void depositar(double valor);
+    void transferir(double valor, Conta contaDestino);
+    void imprimirExtrato();
+    void contratarEmprestimo(double valor, int parcelas);
 }
